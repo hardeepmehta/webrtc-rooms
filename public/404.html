@@ -1,0 +1,37 @@
+<html>
+<head>
+    <title>Sample webrtc video and audio chat</title>
+    <link rel="stylesheet" type="text/css" href="styles/home/main.css">
+    <script type="text/javascript" src="./scripts/jquery.js"></script>
+</head>
+<body>
+    <div class="main-container">
+        <div class="center-middle">
+            <div class="helvetica heading-1">
+                A Simple Room Based Webrtc Application
+            </div>
+            <div class="helvetica">
+                <input type="text" placeholder="Enter your room name, Press Enter and share!" class="room-name"/>
+            </div>
+        </div>
+        <div class="bottom-right">
+            <a href="http://hardeepsinghmehta.com" target="_blank">
+                <img class="u-full-width" src="./images/hardeep.png" alt="Hardeep"/>
+            </a>
+        </div>
+    </div>
+    <script type="text/javascript">
+        $( document).ready(function() {
+            $('.room-name').keyup(function(e){
+                if(e.keyCode == 13)
+                {
+                    var room = $(this).val().trim();
+                    if( room != '' ) {
+                        location.href = "/"+room;
+                    }
+                }
+            });
+        });
+    </script>
+</body>
+</html>

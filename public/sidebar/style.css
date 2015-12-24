@@ -1,0 +1,106 @@
+#sidebar-right
+{
+	background-color: black;
+	width: 300px;
+	height: 744px;
+}
+
+#first-section
+{
+	width: 100%;
+	height: 20%;
+	background-color: #C2C2C2;
+}
+
+#second-section
+{
+	width: 100%;
+	height: 48%;
+	background-color: white;
+	overflow-y: scroll;
+	padding-top: 8px;
+}
+
+#third-section
+{
+	width: 100%;
+	height: 32%;
+	background-color: #C2C2C2;
+}
+
+#first-right-icons img
+{
+	width: 20px;
+	height: auto;
+}
+
+#first-right-icons
+{
+	float: right;
+	margin-top: 22px;
+	margin-right: 15px;
+}
+
+#second-section-form
+{
+	margin: 0;
+}
+
+#first-plane
+{
+	width: 26px;
+	margin-left: 1px;
+	margin-right: 6px;
+	position: relative;
+	top: 7px;
+}
+
+#first-attach
+{
+	width: 30px;
+	margin-right: 3px;
+	position: relative;
+	top: 8px;
+}
+
+#first-chat
+{
+	width: 219px;
+	height: 29px;
+}
+
+#remote-user-chat
+{
+	font-family: Myriad;
+	height: 22px;
+}
+
+#this-user-chat
+{
+	font-family: Myriad;
+	height: 22px;
+}
+
+#remote-chat-data
+{
+	float: left;
+	width: 80%;
+	text-align: left;
+}
+
+#this-chat-data
+{
+	float: right;
+	width: 80%;
+	text-align: right;
+}
+
+#this-user-bubble
+{
+	display: inline-block;
+}
+
+#remote-user-bubble
+{
+	display: inline-block;
+}

@@ -1,0 +1,69 @@
+#file-added
+{
+	display: inline-block;
+}
+
+.file-progress-bar
+{
+	width: 0%;
+	background-color: #4E4E4B;
+	-webkit-transition: width .9s ease;
+	-o-transition: width .9s ease;
+	transition: width .9s ease;
+}
+
+#file-upload-error
+{
+	color: white;
+	font-family: myriad;
+}
+
+#file-name
+{
+	font-family: myriad;
+}
+
+#file-name:hover
+{
+	font-family: myriad;
+	text-decoration: underline;
+}
+
+#file-progress-bar video::-webkit-media-controls-volume-slider-container, video::-webkit-media-controls-fullscreen-button, video::-webkit-media-controls-timeline-container, video::-webkit-media-controls-time-remaining-display, video::-webkit-media-controls-current-time-display, video::-webkit-media-controls-volume-slider
+{
+	display: none;
+}
+
+#file-progress-bar audio::-webkit-media-controls-volume-slider-container, audio::-webkit-media-controls-timeline-container, audio::-webkit-media-controls-time-remaining-display, audio::-webkit-media-controls-current-time-display, audio::-webkit-media-controls-volume-slider
+{
+	display: none;
+}
+
+.crossButton 
+{
+	background-color: transparent;
+	-moz-border-radius: 27px;
+	-webkit-border-radius: 27px;
+	border-radius: 36px;
+	border: 1px solid #ffffff;
+	display: inline-block;
+	cursor: pointer;
+	color: #ffffff;
+	font-family: myriad;
+	font-size: 27px;
+	text-decoration: none;
+	float: right;
+	width: 26px;
+	height: 25px;
+	padding-top: 1px;
+	position: relative;
+	left: -14px;
+	z-index: 1;
+	top: -14;
+}
+
+#black-overlay #image-container
+{
+	-webkit-animation-duration: 300ms;
+	-moz-animation-duration: 300ms;
+}

@@ -1,0 +1,22 @@
+{
+  "name": "prototype-webrtc",
+  "version": "1.0.0",
+  "description": "A simple room based webrtc application for audio-video sharing",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [
+    "webrtc",
+    "rooms",
+    "node.js"
+  ],
+  "author": "Hardeep Mehta",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.13.3",
+    "socket.io": "^1.3.7",
+    "performance-now": "^0.2.0"	  
+},
+  "devDependencies": { }
+}

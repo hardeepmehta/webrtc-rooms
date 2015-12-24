@@ -1,0 +1,9 @@
+@font-face {
+	font-family: 'helvetica';
+	src: url('helvetica/HelveticaNeueLTCom-UltLt.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Myriad';
+	src: url('helvetica/HelveticaNeueLTCom-Roman.ttf') format('truetype');
+}

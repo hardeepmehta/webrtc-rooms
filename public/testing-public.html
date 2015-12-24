@@ -1,0 +1,142 @@
+<html>
+<head>
+	<title>Chat with socket.io and node.js</title>
+	<link rel="stylesheet" type="text/css" href="styles/animate.css">
+	<link rel="stylesheet" type="text/css" href="styles/chat.css">
+	<link rel="stylesheet" type="text/css" href="styles/icomoon/style.css">
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
+	<link rel="stylesheet" type="text/css" href="styles/bubble.css">
+	<link rel="stylesheet" type="text/css" href="styles/upload-file.css">
+
+	<script src="socket.io/socket.io.js"></script>
+	<script src="scripts/adapter.js"></script>
+	<script src="scripts/jquery.js"></script>
+	<script src="scripts/easing.js"></script>
+	<script type="text/javascript" src="scripts/overlay.js"></script>
+	<script src="scripts/socketchat.js"></script>
+	<script src="scripts/chat-solo.js"></script>
+	<script type="text/javascript" src="scripts/countdown/jquery.countdownTimer.js"></script>
+	<script type="text/javascript" src="scripts/countdown-logic.js"></script>
+	<script type="text/javascript" src="scripts/slider-easing.js"></script>
+		<!-- The jQuery UI widget factory, can be omitted if jQuery UI is already included -->
+	<script src="scripts/fileupload/vendor/jquery.ui.widget.js"></script>
+	<!-- The Load Image plugin is included for the preview images and image resizing functionality -->
+	<script src="scripts/fileupload/load-image.all.min.js"></script>
+	<!-- The Canvas to Blob plugin is included for image resizing functionality -->
+	<script src="scripts/fileupload/canvas-to-blob.min.js"></script>
+	<!-- The Iframe Transport is required for browsers without support for XHR file uploads -->
+	<script src="scripts/fileupload/jquery.iframe-transport.js"></script>
+	<!-- The basic File Upload plugin -->
+	<script src="scripts/fileupload/jquery.fileupload.js"></script>
+	<!-- The File Upload processing plugin -->
+	<script src="scripts/fileupload/jquery.fileupload-process.js"></script>
+	<!-- The File Upload image preview & resize plugin -->
+	<script src="scripts/fileupload/jquery.fileupload-image.js"></script>
+	<!-- The File Upload audio preview plugin -->
+	<script src="scripts/fileupload/jquery.fileupload-audio.js"></script>
+	<!-- The File Upload video preview plugin -->
+	<script src="scripts/fileupload/jquery.fileupload-video.js"></script>
+	<!-- The File Upload validation plugin -->
+	<script src="scripts/fileupload/jquery.fileupload-validate.js"></script>
+	<!-- MAIN LOGICAL FILE -->
+	<script src="scripts/fileupload/upload-file.js"></script>
+</head>
+<body>
+	<div id="main-background">
+		<div id="local-video">
+			<div id="local-chat-arrow">
+			</div>
+			<video id="my-video" autoplay></video>
+			<div id="toolbar">
+				<div id="icons-tools">
+					<div style="position: relative; left: -4px;" class="main-camera-icon">
+					</div>
+					<div style="position: relative; left: -8px;" class="main-audio-icon">
+					</div>
+					<div style="position: relative; left: -9px; top: -20px;" class="timer" id="timer">
+					</div>
+					<div style="border-right-width: 0px; position: relative; left: -16px;" class="main-phone-drop-icon">
+					</div>
+					<div class="main-expand-icon" style="position: relative;">
+					</div>
+
+				</div>
+			</div>
+		</div>
+		</div>
+		<div id="remote-video">
+		</div>
+		<div id="username-prompt">
+			<div id="username-text">
+				Enter Your Username
+			</div>
+			<form id="username">
+				<input type="text" placeholder="Please Enter Your Username">
+				<input type="submit" style="display: none">
+			</form>
+			<div id="errors">
+			</div>
+		</div>
+	</div>
+	<div id="preload" style="display: none">
+		<img src="images/buttons/MIC/mic-normal.png" />
+		<img src="images/buttons/MIC/mic-hover.png" />
+		<img src="images/buttons/MIC/mic-active.png" />
+
+		<img src="images/buttons/PHONE/phone-normal.png" />
+		<img src="images/buttons/PHONE/phone-hover.png" />
+		<img src="images/buttons/PHONE/phone-active.png" />
+
+		<img src="images/buttons/RESIZE/resize-normal.png" />
+		<img src="images/buttons/RESIZE/resize-hover.png" />
+		<img src="images/buttons/RESIZE/resize-active.png" />
+	
+		<img src="images/buttons/CAM/cam-normal.png" />
+		<img src="images/buttons/CAM/cam-hover.png" />
+		<img src="images/buttons/CAM/cam-active.png" />
+	</div>
+	<div id="black-overlay">
+		<div id="cubes" style="display: inline-block; position: relative;">
+			<div class="cube1">
+			</div>
+			<div class="cube2">
+			</div>
+		</div>
+	</div>
+			<!-- Right Container Starts !!!!!-->
+	<div id="sidebar-right">
+		<div id="first-section">
+			<div id="first-right-icons">
+				<img src="images/buttons/1.png">
+				<img src="images/buttons/2.png">
+				<img src="images/buttons/3.png">
+				<img src="images/buttons/4.png">
+			</div>
+			<div id="first-names">
+				<div id="first-speaker">
+				</div>
+				<div id="second-speaker">
+				</div>
+			</div>
+		</div>
+		<div id="second-section">
+		</div>
+		<div id="third-section">
+			<form id="second-section-form">
+				<textarea rows="7" style="width: 100%; text-align: left" id="first-chat" autocomplete="off" placeholder="Waiting for the other user."></textarea>
+				<input type="submit" style="display: none">
+			</form>
+		</div>
+		<div id="fourth-section">
+				<div id="first-attach">
+					<input id="fileupload" type="file" name="files[]" multiple>
+				</div>
+				<img src="images/buttons/plus.png" id="first-plus">
+				<img src="images/buttons/send.png" id="first-plane">
+		</div>
+	</div>
+	<div id="sidebar-chat-right">
+	</div>
+		<!-- Right Container ENds... !!!!!-->
+</body>
+</html>

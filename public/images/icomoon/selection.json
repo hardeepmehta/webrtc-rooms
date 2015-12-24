@@ -1,0 +1,167 @@
+{
+	"IcoMoonType": "selection",
+	"icons": [
+		{
+			"icon": {
+				"paths": [
+					"M384 288c0-88.366 71.634-160 160-160s160 71.634 160 160c0 88.366-71.634 160-160 160-88.366 0-160-71.634-160-160zM0 288c0-88.366 71.634-160 160-160 88.366 0 160 71.634 160 160 0 88.366-71.634 160-160 160-88.366 0-160-71.634-160-160zM768 608v-96c0-35.2-28.8-64-64-64h-160-480c-35.2 0-64 28.8-64 64v320c0 35.2 28.8 64 64 64h640c35.2 0 64-28.8 64-64v-96l256 160v-448l-256 160zM640 768h-512v-192h512v192z"
+				],
+				"tags": [
+					"camera",
+					"video",
+					"media",
+					"film",
+					"movie"
+				],
+				"grid": 16
+			},
+			"properties": {
+				"id": 20,
+				"order": 11,
+				"prevSize": 32,
+				"code": 58880,
+				"name": "camera",
+				"ligatures": ""
+			},
+			"setIdx": 0,
+			"iconIdx": 20
+		},
+		{
+			"icon": {
+				"paths": [
+					"M1017.378 575.994c8.004 55.482 13.216 131.392-11.664 160.446-41.142 48.044-301.712 48.044-301.712-48.042 0-48.398 42.856-80.134 1.712-128.178-40.472-47.262-113.026-48.030-193.714-48.042-80.686 0.012-153.242 0.78-193.714 48.042-41.142 48.046 1.714 79.78 1.714 128.178 0 96.086-260.57 96.086-301.714 48.044-24.878-29.054-19.668-104.964-11.662-160.446 6.16-37.038 21.724-76.996 71.548-127.994 0-0.002 0.002-0.002 0.002-0.004 74.738-69.742 187.846-126.738 429.826-127.968v-0.030c1.344 0 2.664 0.010 4 0.014 1.338-0.004 2.656-0.014 4-0.014v0.028c241.98 1.23 355.088 58.226 429.826 127.968 0.002 0.002 0.002 0.004 0.002 0.004 49.824 50.996 65.39 90.954 71.55 127.994z"
+				],
+				"tags": [
+					"phone-hang-up",
+					"contact",
+					"telephone",
+					"support",
+					"call"
+				],
+				"grid": 16
+			},
+			"properties": {
+				"id": 61,
+				"order": 9,
+				"prevSize": 32,
+				"code": 58881,
+				"name": "phone-hang-up",
+				"ligatures": ""
+			},
+			"setIdx": 0,
+			"iconIdx": 61
+		},
+		{
+			"icon": {
+				"paths": [
+					"M1024 0v416l-160-160-192 192-96-96 192-192-160-160zM448 672l-192 192 160 160h-416v-416l160 160 192-192z"
+				],
+				"tags": [
+					"expand",
+					"enlarge",
+					"maximize",
+					"fullscreen"
+				],
+				"grid": 16
+			},
+			"properties": {
+				"id": 132,
+				"order": 7,
+				"prevSize": 32,
+				"code": 58882,
+				"name": "expand",
+				"ligatures": ""
+			},
+			"setIdx": 0,
+			"iconIdx": 132
+		},
+		{
+			"icon": {
+				"paths": [
+					"M448 576v416l-160-160-192 192-96-96 192-192-160-160zM1024 96l-192 192 160 160h-416v-416l160 160 192-192z"
+				],
+				"tags": [
+					"contract",
+					"minimize",
+					"shrink",
+					"collapse"
+				],
+				"grid": 16
+			},
+			"properties": {
+				"id": 133,
+				"order": 8,
+				"prevSize": 32,
+				"code": 58883,
+				"name": "contract",
+				"ligatures": ""
+			},
+			"setIdx": 0,
+			"iconIdx": 133
+		},
+		{
+			"icon": {
+				"paths": [
+					"M401.332 78.668c25.668-25.668 46.668-16.968 46.668 19.332v828c0 36.3-21 44.998-46.668 19.33l-241.332-241.33h-160v-384h160l241.332-241.332zM960 619.148v84.852h-84.852l-107.148-107.148-107.148 107.148h-84.852v-84.852l107.148-107.148-107.148-107.148v-84.852h84.852l107.148 107.148 107.148-107.148h84.852v84.852l-107.148 107.148z"
+				],
+				"tags": [
+					"volume-mute",
+					"speaker",
+					"media control",
+					"audio",
+					"mute"
+				],
+				"grid": 16
+			},
+			"properties": {
+				"id": 280,
+				"order": 10,
+				"prevSize": 32,
+				"code": 58884,
+				"name": "volume-mute",
+				"ligatures": ""
+			},
+			"setIdx": 0,
+			"iconIdx": 280
+		}
+	],
+	"height": 1024,
+	"metadata": {
+		"name": "icomoon"
+	},
+	"preferences": {
+		"fontPref": {
+			"prefix": "icon-",
+			"metadata": {
+				"fontFamily": "icomoon"
+			},
+			"showGlyphs": true,
+			"metrics": {
+				"emSize": 512,
+				"baseline": 6.25,
+				"whitespace": 50
+			},
+			"resetPoint": 58880,
+			"showQuickUse": true,
+			"quickUsageToken": false,
+			"showMetrics": true,
+			"showMetadata": false
+		},
+		"imagePref": {
+			"color": 0,
+			"height": 32,
+			"columns": 16,
+			"margin": 16,
+			"png": false,
+			"sprites": true
+		},
+		"historySize": 100,
+		"showCodes": true,
+		"gridSize": 16,
+		"showLiga": false,
+		"showGrid": true,
+		"showGlyphs": true,
+		"showQuickUse": true,
+		"search": ""
+	}
+}
