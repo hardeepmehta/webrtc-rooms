@@ -32,4 +32,4 @@ node app.js
 - This should start your chat app at https://localhost:5000/
 - Any two users can chat over https://localhost:5000/any+room+name
 
-## Demo [Heroku App](hardeep-rooms.herokuapp.com)
+## Demo [Heroku App](https://hardeep-rooms.herokuapp.com)
